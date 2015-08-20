@@ -1,24 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Portfolio</title>
-	<!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <meta charset="utf-8">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <title>My Portfolio</title><!-- Latest compiled and minified CSS -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+    rel="stylesheet"><!-- Optional theme -->
+    <link href=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+    rel="stylesheet"><!-- Latest compiled and minified JavaScript -->
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src=
+    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <h1 class="test">Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <nav id="header" class="navbar navbar-default">
+        <div class="container-fluid" id="nav">
+            <div id="nav-items">
+                <span id="name">Jeremaih Francisco</span> <span><a href=
+                "#">Home</a></span> <span><a href="#about">About</a></span>
+                <span><a href="#projects">Projects</a></span> <span><a href=
+                "#contact">Contact</a></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="containter-fluid">
+            <div class="text-center">
+                <h1><p class="text-primary">Jeremaih Francisco</p></h1>
+
+                <h3>Aspiring Full Stack Web Developer</h3>
+
+                <h3>&</h3>
+
+                <h3>Software Engineer</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="containter-fluid" id="about">
+        <h1>About me</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
+        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
+        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
+        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
+        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
+        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
+        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
+        faucibus. Etiam sit amet tortor nunc.</p>
+    </div>
+
+    <div class="containter-fluid" id="projects">
+        <h1>Projects</h1>
+        
+        <div class="row">
+        
+            <div class="col-md-4">
+            test
+            </div>
+            <div class="col-md-4">
+            
+            </div>
+            <div class="col-md-4">
+            
+            </div>
+        
+        
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
+        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
+        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
+        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
+        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
+        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
+        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
+        faucibus. Etiam sit amet tortor nunc.</p>
+    </div>
+
+    <div class="containter-fluid" id="contact">
+        <h1>Contact Me</h1>
+
+        <h2>Find Me Here!</h2>
+
+        <div class="row">
+            <div class="text-center">
+                <span><button class="btn btn-primary"><span><img id=
+                "contact-img" src=
+                "img/linkedin.png">Linkedin</span></button></span>
+                <span><button class="btn btn-primary"><span><img id=
+                "contact-img" src=
+                "img/Twitter_logo_blue.png">Twitter</span></button></span>
+                <span><button class="btn btn-primary"><span><img id=
+                "contact-img" src=
+                "img/github.png">Github</span></button></span>
+                <span><button class="btn btn-primary"><span><img id=
+                "contact-img" src=
+                "img/codepen.png">CodePen</span></button></span>
+            </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
+        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
+        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
+        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
+        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
+        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
+        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
+        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
+        faucibus. Etiam sit amet tortor nunc.</p>
+    </div>
+
+    <div id="footer"> 
+        <div class="container-fluid">
+            <div id="footer-info">
+                <span>Copyright &copy; Jeremiah Francisco 2015</span> 
+                <span>All Rights Reserved</span>
+
+                <div id="footer-nav">
+                    <a href="#">Home</a> <a href="#about">About</a> <a href=
+                    "#projects">Projects</a> <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

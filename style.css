@@ -1,0 +1,57 @@
+*{
+    font-family: monospace;
+}
+
+#header{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#nav-items{
+    text-align: right;
+    font-size: 150%;
+}
+
+#name{
+    float: left;
+}
+
+.jumbotron{
+    margin-bottom:10%;
+    background-color: lightcoral;
+}
+#footer-nav{
+    float: right;
+    
+}
+
+.jumbotron p{
+    font-size: 50%;
+}
+
+#about{
+    
+}
+
+
+h1, h2{
+    text-align: center;
+}
+
+#contact-img{
+    height: 20%;
+    width: 20%;
+    padding-right: 5%;
+}
+
+.btn{
+    width: 20%;
+    height: 20%;
+    
+}
+
+#footer{
+    
+}
+
+
