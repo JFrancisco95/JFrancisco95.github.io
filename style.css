@@ -1,57 +1,82 @@
-*{
-    font-family: monospace;
+* {
+    font-family:monospace
 }
 
-#header{
-    margin-top: 0;
-    margin-bottom: 0;
+
+body{
+    margin: 0 1% 1% 1%;
+}
+#header {
+    margin-top:0;
+    margin-bottom:0
 }
 
-#nav-items{
-    text-align: right;
-    font-size: 150%;
+#nav-items {
+    text-align:right;
+    font-size:150%
 }
 
-#name{
-    float: left;
+#name {
+    float:left
 }
 
-.jumbotron{
+.jumbotron {
     margin-bottom:10%;
-    background-color: lightcoral;
+    background-color:#f08080
 }
-#footer-nav{
-    float: right;
+
+#footer-nav {
+    float:right
+}
+
+.jumbotron p {
+    font-size:50%
+}
+
+#about {
     
 }
 
-.jumbotron p{
-    font-size: 50%;
+#contact {
+    margin-bottom:3%
 }
 
-#about{
-    
+#projects {
+    margin-bottom:3%
+}
+
+h1,h2, h3 {
+    text-align:center
+}
+
+#contact-img {
+    height:20px;
+    width:20px%;
+    padding-right:5%
+}
+
+.btn {
+    mid-width:20%;
+    margin-top:3%
+}
+
+#footer {
+    border-top:solid
+}
+
+#project {
+    width:100%;
+    height:100%;
+    margin-bottom:3%
 }
 
 
-h1, h2{
-    text-align: center;
+p{
+    text-align:center
 }
 
-#contact-img{
-    height: 20%;
-    width: 20%;
-    padding-right: 5%;
-}
-
-.btn{
-    width: 20%;
-    height: 20%;
-    
-}
-
-#footer{
-    
+#project-top {
+    margin-bottom:3%
 }
 
 

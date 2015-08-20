@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <nav id="header" class="navbar navbar-default">
+    <nav class="navbar navbar-default" id="header">
         <div class="container-fluid" id="nav">
             <div id="nav-items">
                 <span id="name">Jeremaih Francisco</span> <span><a href=
@@ -35,7 +35,7 @@
         <div class="containter-fluid">
             <div class="text-center">
                 <h1><p class="text-primary">Jeremaih Francisco</p></h1>
-
+  
                 <h3>Aspiring Full Stack Web Developer</h3>
 
                 <h3>&</h3>
@@ -47,43 +47,77 @@
 
     <div class="containter-fluid" id="about">
         <h1>About me</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
-        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
-        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
-        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
-        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
-        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
-        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
-        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
-        faucibus. Etiam sit amet tortor nunc.</p>
+        
+        <div id="one">
+        <p>Hello, my name is Jeremiah Francisco. I live in Los Angeles, California. I’m an aspiring web developer/software engineer. I enjoy learning new languages and improving my coding skills.</p>
+        <p>My Favorite Language: Javascript.</p>
+
+        <p>My Favorite text editor: Brackets.</p>
+
+        <p>My Favorite API: twitch.tv API</p>
+       </div>
+       
     </div>
 
     <div class="containter-fluid" id="projects">
         <h1>Projects</h1>
-        
+        <h3>CodePens</h3>
         <div class="row">
-        
-            <div class="col-md-4">
-            test
+            <div class="col-xs-12" id="project-top">
+                <h4 class="text-center">Stream Tracker</h4>
+
+                <div class="container" id="project">
+                    <p class='codepen' data-default-tab="result" data-height=
+                    "444" data-slug-hash="PqveVW" data-theme-id="18051"
+                    data-user="JFrancisco95">See the Pen <a href=
+                    'http://codepen.io/JFrancisco95/pen/PqveVW/'>PqveVW</a> by
+                    Jeremiah Francisco (<a href=
+                    'http://codepen.io/JFrancisco95'>@JFrancisco95</a>) on
+                    <a href='http://codepen.io'>CodePen</a>.</p><script async=
+                    "" src="//assets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+
+                <p>This is a stream tracker built using the twitch api. It show
+                you whether a streamer is only or not and if they are online it
+                displays their title.</p>
             </div>
-            <div class="col-md-4">
-            
+
+            <div class="col-xs-6" id="project-top">
+                <h4 class="text-center">Quote Machine</h4>
+
+                <div class="container" id="project">
+                    <p class='codepen' data-default-tab="result" data-height=
+                    "400" data-slug-hash="LVabam" data-theme-id="18051"
+                    data-user="JFrancisco95">See the Pen <a href=
+                    'http://codepen.io/JFrancisco95/pen/LVabam/'>My Quote
+                    Machine</a> by Jeremiah Francisco (<a href=
+                    'http://codepen.io/JFrancisco95'>@JFrancisco95</a>) on
+                    <a href='http://codepen.io'>CodePen</a>.</p><script async=
+                    "" src="//assets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+
+                <p>A random quote machine. Built with just HTML, CSS and
+                Javascript. It also has twitter functionality.</p>
             </div>
-            <div class="col-md-4">
-            
+
+            <div class="col-xs-6" id="project-top">
+                <h4 class="text-center">Weather App</h4>
+
+                <div class="container" id="project">
+                    <p class='codepen' data-default-tab="result" data-height=
+                    "400" data-slug-hash="ZGZbYB" data-theme-id="18051"
+                    data-user="JFrancisco95">See the Pen <a href=
+                    'http://codepen.io/JFrancisco95/pen/ZGZbYB/'>My Weather
+                    App</a> by Jeremiah Francisco (<a href=
+                    'http://codepen.io/JFrancisco95'>@JFrancisco95</a>) on
+                    <a href='http://codepen.io'>CodePen</a>.</p><script async=
+                    "" src="//assets.codepen.io/assets/embed/ei.js"></script>
+                </div>
+
+                <p>A weather app built using OpenWeatherMap api and
+                geolocate.</p>
             </div>
-        
-        
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
-        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
-        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
-        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
-        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
-        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
-        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
-        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
-        faucibus. Etiam sit amet tortor nunc.</p>
     </div>
 
     <div class="containter-fluid" id="contact">
@@ -93,36 +127,35 @@
 
         <div class="row">
             <div class="text-center">
-                <span><button class="btn btn-primary"><span><img id=
+                <span><button id="linkedin" class="btn btn-primary"><span><span><img id=
                 "contact-img" src=
-                "img/linkedin.png">Linkedin</span></button></span>
-                <span><button class="btn btn-primary"><span><img id=
+                "img/linkedin.png">Linkedin</span></span></button></span>
+            
+                <span><button id="twitter" class="btn btn-primary"><span><span><img id=
                 "contact-img" src=
-                "img/Twitter_logo_blue.png">Twitter</span></button></span>
-                <span><button class="btn btn-primary"><span><img id=
+                "img/Twitter_logo_blue.png">Twitter</span></span></button></span>
+            
+                <span><button id="github" class="btn btn-primary"><span><span><img id=
                 "contact-img" src=
-                "img/github.png">Github</span></button></span>
-                <span><button class="btn btn-primary"><span><img id=
+                "img/github.png">Github</span></span></button></span>
+            
+                <span><button id="codepen" class="btn btn-primary"><span><span><img id=
                 "contact-img" src=
-                "img/codepen.png">CodePen</span></button></span>
+                "img/codepen.png">CodePen</span></span></button></span>
+                
+                <span><button id="freecodecamp" class="btn btn-primary"><span><span><img id=
+                "contact-img" src=
+                "img/fcclogo.png">FreeCodeCamp</span></span></button></span>
+            
             </div>
         </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vitae
-        eros erat. Morbi nec cursus dui. Nulla facilisi. Maecenas vestibulum
-        tortor nec rhoncus gravida. Pellentesque interdum sed diam sit amet
-        varius. Praesent condimentum sapien libero, at imperdiet est rhoncus
-        finibus. Vestibulum vitae dui nisi. Sed ipsum odio, accumsan sit amet
-        metus non, semper feugiat magna. Curabitur ultrices ipsum at neque
-        lacinia, efficitur malesuada quam faucibus. Integer ut ligula congue,
-        lacinia justo in, pharetra erat. Vivamus eget metus sed odio tempus
-        faucibus. Etiam sit amet tortor nunc.</p>
     </div>
 
-    <div id="footer"> 
+    <div id="footer">
         <div class="container-fluid">
             <div id="footer-info">
-                <span>Copyright &copy; Jeremiah Francisco 2015</span> 
-                <span>All Rights Reserved</span>
+                <span>Copyright &copy; Jeremiah Francisco 2015</span> <span>All
+                Rights Reserved</span>
 
                 <div id="footer-nav">
                     <a href="#">Home</a> <a href="#about">About</a> <a href=
