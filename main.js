@@ -4,7 +4,7 @@ $(document).ready(function() {
     });
     
     $("#twitter").click(function(){
-        window.open("https://twitter.com/quidditch511");
+        window.open("https://twitter.com/SanFran_64");
     });
     
     $("#github").click(function(){
