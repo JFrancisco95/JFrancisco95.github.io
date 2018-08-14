@@ -3,10 +3,6 @@ $(document).ready(function() {
         window.open("https://www.linkedin.com/pub/jeremiah-francisco/a8/3b3/454");
     });
     
-    $("#twitter").click(function(){
-        window.open("https://twitter.com/SanFran_64");
-    });
-    
     $("#github").click(function(){
         window.open("https://github.com/JFrancisco95");
     });
